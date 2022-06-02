@@ -1,0 +1,523 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1654192265712384, "dur":778, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192265713169, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654192265713210, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654192265713222, "dur":228, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654192265713473, "dur":390, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192265713863, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723555, "dur":316, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723871, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723879, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723882, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723887, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723889, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723894, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723895, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723904, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723905, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723911, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723913, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723918, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723928, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266723931, "dur":1001, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654192265713785, "dur":132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265713917, "dur":2678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265716597, "dur":21825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1654192265738426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265777322, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1654192265779901, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654192265779924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265781360, "dur":31429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654192265812803, "dur":10751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654192265823556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265823560, "dur":7938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654192265831507, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1654192265831524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265831527, "dur":45869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1654192265877408, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265877542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265880950, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265881469, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265881544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265881555, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265881927, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265881999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265882012, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265882631, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265882713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265882716, "dur":7021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265889748, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265889840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265889843, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890261, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890353, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890823, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265890909, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265891441, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265891596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265891600, "dur":7918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265899529, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265899611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265899615, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900008, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900098, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900508, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900583, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265900960, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265901030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265901033, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265902899, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265902977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265902981, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903394, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903471, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903893, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265903971, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265904347, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265904426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265904429, "dur":4695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909134, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909242, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909672, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265909754, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910123, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910200, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910592, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192265910684, "dur":91772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266002473, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266002731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266002738, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266007153, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266007242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266007257, "dur":25606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266032873, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266032953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266032957, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266037427, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266037520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266037523, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266038228, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266038338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266038340, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266042094, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266042181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266042185, "dur":16768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266058965, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266059142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266059147, "dur":5165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266064321, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266064409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266064412, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266068074, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266068160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266068163, "dur":18324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266086498, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266086588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266086593, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266093591, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266093676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266093679, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266094197, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266094308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266094310, "dur":9427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266103747, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266104452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266104455, "dur":8698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266113161, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266113257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266113260, "dur":4744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266118013, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266118157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266118161, "dur":11335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266129505, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266129737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266129740, "dur":17525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266147274, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266147514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266147517, "dur":8606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266156131, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266156211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266156225, "dur":47029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266203267, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266203330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266203333, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266207132, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266207205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266207219, "dur":25538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266232767, "dur":1691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266234460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266234463, "dur":10644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245120, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245227, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245756, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266245846, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266246382, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266246989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266246992, "dur":16963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266263970, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266264208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266264213, "dur":7781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266272002, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266272186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266272189, "dur":8800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654192266281001, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1654192266281088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266288946, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1654192266290308, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266290317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266290320, "dur":26896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317228, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317240, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317779, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266317790, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1654192266320183, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1654192266320253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266320255, "dur":12988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333252, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333264, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333752, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266333762, "dur":152855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1654192266486629, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1654192266486641, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654192266486648, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1654192266487189, "dur":236370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192265713820, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192265713924, "dur":2705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192265716629, "dur":51950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654192265768584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192265778083, "dur":26484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654192265804579, "dur":18910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654192265823492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192265823497, "dur":8123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654192265831631, "dur":78969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192265910602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266001984, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266003072, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266003174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266003178, "dur":28801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266031991, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266032174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266032178, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266033144, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266033252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266033255, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266037501, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266037577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266037580, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266038294, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266038373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266038376, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266042335, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266042474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266042477, "dur":16705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266059191, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266059328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266059331, "dur":5216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266064555, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266064633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266064636, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266068258, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266068410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266068413, "dur":18408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266086829, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266086912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266086914, "dur":7052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266093974, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266094153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266094156, "dur":9451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266103616, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266103705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266103709, "dur":8466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266112186, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266112267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266112271, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266113103, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266113199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266113202, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266118078, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266118181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266118184, "dur":11306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266129500, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266129592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266129595, "dur":17473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266147077, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266147198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266147201, "dur":8756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266155965, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266156041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266156044, "dur":47124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266203177, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266203270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266203273, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266207144, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266207218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266207221, "dur":25848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266233077, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266233287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266233290, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266234255, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266234380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266234383, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266236869, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266237008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266237011, "dur":8339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266245359, "dur":1212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266246573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266246576, "dur":25228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266271813, "dur":2334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266274160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266274163, "dur":45141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654192266319315, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654192266319325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266319329, "dur":12952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654192266332294, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1654192266332306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266332311, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1654192266333327, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1654192266333335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266333337, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1654192266334347, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1654192266334355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266334357, "dur":152318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1654192266486686, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654192266486765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654192266486768, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654192266487299, "dur":236258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265713791, "dur":130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265713921, "dur":2707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265716628, "dur":53466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654192265770098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265778314, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1654192265779867, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265779893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265779921, "dur":25166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265805097, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265805116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265805121, "dur":15014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265820148, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265820172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265820177, "dur":11098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654192265831289, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1654192265831312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192265831315, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1654192265833238, "dur":287817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1654192266121059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266121063, "dur":8585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1654192266129661, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266129970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266129973, "dur":24906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266154890, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266154970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266154973, "dur":47774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266202758, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266202846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266202850, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266203399, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266203475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266203478, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266207333, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266207461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266207464, "dur":25579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266233058, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266233148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266233152, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266233959, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266234478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266234481, "dur":10675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266245166, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266245514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266245518, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266246499, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266246629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266246632, "dur":25103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266271747, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266272156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266272159, "dur":8931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654192266281101, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1654192266281112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266281121, "dur":36552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1654192266317684, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654192266317693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266317696, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654192266320003, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1654192266320077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266320081, "dur":12441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1654192266332531, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1654192266332540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266332542, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1654192266333565, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1654192266333572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266333575, "dur":84648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1654192266418233, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654192266418243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654192266418246, "dur":68699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1654192266486953, "dur":236561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265713944, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265713944, "dur":2695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265716639, "dur":53455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654192265770098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265778111, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654192265779939, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654192265781222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265781296, "dur":23960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654192265805265, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654192265805287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265805447, "dur":33604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654192265839065, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654192265839406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265839409, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654192265840279, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1654192265840300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265840388, "dur":111321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1654192265951721, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192265952330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192265952334, "dur":54627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266006971, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266007068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266007071, "dur":25226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266032306, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266032402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266032405, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266033322, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266033407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266033410, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266037671, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266037748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266037751, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266038305, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266038378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266038381, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266042229, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266042301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266042304, "dur":16845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266059164, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266059252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266059255, "dur":5244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266064509, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266064586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266064589, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266068157, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266068310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266068314, "dur":18365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266086689, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266086768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266086772, "dur":7021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266093801, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266093886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266093889, "dur":9342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103243, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103349, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103831, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266103911, "dur":8490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266112410, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266112489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266112492, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266113285, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266113362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266113365, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266118126, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266118214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266118216, "dur":11131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266129359, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266129447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266129451, "dur":17416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266146876, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266146994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266146999, "dur":7926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266154934, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266155018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266155021, "dur":47792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266202823, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266202920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266202923, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266206947, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266207017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266207021, "dur":25509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266232565, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266232730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266232734, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266233300, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266233512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266233514, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266234217, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266234354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266234357, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266236861, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266236955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266236962, "dur":8356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266245327, "dur":1431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266246760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266246763, "dur":24988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266271760, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266271877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266271881, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266272560, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266272631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266272634, "dur":44371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317024, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317040, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317792, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266317804, "dur":14495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266332309, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266332319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266332321, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266333368, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266333376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266333378, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1654192266334380, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1654192266334389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654192266334391, "dur":152306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1654192266486706, "dur":236819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265713892, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265713893, "dur":2696, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265716597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1654192265716600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265776601, "dur":214, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1654192265776820, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/Kursovaya_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1654192265776838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265777043, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/Kursovaya_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1654192265779965, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654192265779991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265781159, "dur":26166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654192265807337, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654192265807357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192265807368, "dur":25269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654192265832646, "dur":818866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654192266651515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654192266651520, "dur":71968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654192266723500, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1654192266723502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192265713990, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192265713991, "dur":2605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192265716597, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1654192265716693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192265778356, "dur":27546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1654192265805912, "dur":24904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1654192265830820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192265830825, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1654192265831709, "dur":688602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Kursovaya/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654192266520314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654192266520343, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Kursovaya/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654192266523997, "dur":199536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654192266725788, "dur":1467, "ph":"X", "name": "ProfilerWriteOutput" }
+,
